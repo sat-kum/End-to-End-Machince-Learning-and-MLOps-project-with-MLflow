@@ -5,9 +5,8 @@ Summary: A small python package for ml app
 Home-page: https://github.com/sat-kum/End-to-End-Machince-Learning-and-MLOps-project-with-MLflow
 Author: sat-kum
 Author-email: satkum161997@gamil.com
-License: UNKNOWN
-Description: # End-to-End-Machince-Learning-and-MLOps-project-with-MLflow
-         
-        
-Platform: UNKNOWN
 Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# End-to-End-Machince-Learning-and-MLOps-project-with-MLflow
+ 

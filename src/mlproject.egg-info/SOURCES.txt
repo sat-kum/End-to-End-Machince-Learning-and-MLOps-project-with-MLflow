@@ -1,3 +1,4 @@
+LICENSE
 README.md
 setup.py
 src/mlproject/__init__.py
