@@ -1,8 +1,8 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from src.mlproject import logger
-import josn
+from mlproject import logger
+import json
 import joblib
 from ensure import ensure_annotations
 from box import ConfigBox
@@ -12,7 +12,7 @@ from typing import Any
 
 
 @ensure_annotations
-def red_yaml(path_to_yaml: Path)->ConfigBox:
+def read_yaml(path_to_yaml: Path)->ConfigBox:
     """reads yaml file and returns
     
     Args:
@@ -38,17 +38,17 @@ def red_yaml(path_to_yaml: Path)->ConfigBox:
         raise e
     
 @ensure_annotations
-def create_directories(path_to_directories: list, verbose:True):
+def create_directories(path_to_directories: list, verbose=True):
     """create list of directories
 
     Args:
         path_to_directories (list): list of path of directories
-        ignore_log (bool, optional): ignore if multiple dirs is to be created. Defults to False
+        ignore_log (bool, optional): ignore if multiple dirs is to be created. Defaults to False.
     """
     for path in path_to_directories:
         os.makedirs(path, exist_ok=True)
         if verbose:
-            logger.info(f"Created directory at: {path}")
+            logger.info(f"created directory at: {path}")
 
 
 @ensure_annotations
