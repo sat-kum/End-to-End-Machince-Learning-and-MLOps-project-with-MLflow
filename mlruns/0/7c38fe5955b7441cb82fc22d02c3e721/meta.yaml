@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sathish/Documents/GitHub/End-to-End-Machince-Learning-and-MLOps-project-with-MLflow/mlruns/0/7c38fe5955b7441cb82fc22d02c3e721/artifacts
+end_time: 1720964856855
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7c38fe5955b7441cb82fc22d02c3e721
+run_name: nebulous-loon-952
+run_uuid: 7c38fe5955b7441cb82fc22d02c3e721
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720964856814
+status: 3
+tags: []
+user_id: sathish
